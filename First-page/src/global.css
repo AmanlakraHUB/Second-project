@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eloquia+Display:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --desktop-body-l: "Eloquia Display";
+  --font-space-grotesk: "Space Grotesk";
+
+  /* font sizes */
+  --desktop-body-m-size: 16px;
+  --font-size-base: 18px;
+  --desktop-body-l-size: 20px;
+
+  /* Colors */
+  --gray-5: #e0e0e0;
+  --gray-1: #333;
+  --color-gray-300: #1e1e1e;
+  --white: #fff;
+  --purple: #793ef5;
+
+  /* Gaps */
+  --gap-xs: 8px;
+  --gap-sm: 12px;
+  --gap-md: 24px;
+  --gap-lg: 28px;
+
+  /* Paddings */
+  --padding-xs: 10px;
+  --padding-sm: 16px;
+  --padding-md: 20px;
+  --padding-lg: 24px;
+
+  /* border radiuses */
+  --br-xs: 12px;
+  --br-sm: 16px;
+  --br-md: 20px;
+  --br-lg: 30px;
+}

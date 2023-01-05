@@ -1,0 +1,336 @@
+.untickCircleIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.textDiv {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  display: inline-block;
+}
+.iconText {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameDiv,
+.iconText,
+.iconText1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconText1 {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  opacity: 0.3;
+}
+.frameDiv {
+  position: absolute;
+  top: 118px;
+  left: 23px;
+  border-radius: var(--br-md);
+  border: 1px solid #d0d4da;
+  box-sizing: border-box;
+  width: 1466px;
+  height: 60px;
+  padding: var(--padding-lg);
+  justify-content: space-between;
+  font-size: var(--desktop-body-m-size);
+}
+.arrowLeftIcon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.frameDiv2 {
+  align-self: stretch;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  background-color: var(--white);
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.textDiv5 {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.frameDiv3 {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.continueToNextStep {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  display: inline-block;
+}
+.arrowRightIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.frameDiv4,
+.frameDiv5 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frameDiv5 {
+  border-radius: var(--br-xs);
+  background-color: var(--gray-50);
+  padding: 12px var(--padding-sm);
+  gap: var(--gap-xs);
+}
+.frameDiv4 {
+  align-self: stretch;
+  border-radius: 0 var(--br-lg) var(--br-lg) 0;
+  background-color: var(--white);
+  width: 300px;
+  flex-shrink: 0;
+  padding: var(--padding-lg);
+  text-align: center;
+  font-size: 14px;
+  color: var(--gray-3);
+}
+.frameDiv1,
+.frameDiv8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv1 {
+  position: absolute;
+  top: 20px;
+  left: 23px;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.04);
+  width: 1466px;
+  height: 80px;
+  gap: 0;
+}
+.frameDiv8 {
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+}
+.categoryDiv {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameDiv9 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.arrowRightIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.moduleDiv {
+  border-radius: var(--br-sm);
+  background-color: var(--white);
+  border: 1px solid var(--gray-5);
+  box-sizing: border-box;
+  width: 606px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frameDiv7 {
+  gap: var(--gap-md);
+  z-index: 8;
+}
+.frameDiv10,
+.frameDiv15,
+.frameDiv7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv10 {
+  gap: var(--gap-md);
+  z-index: 7;
+}
+.frameDiv15 {
+  flex: 1;
+  gap: var(--gap-sm);
+}
+.frameDiv13,
+.frameDiv16,
+.frameDiv19,
+.frameDiv22,
+.frameDiv25,
+.frameDiv28 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  z-index: 6;
+}
+.frameDiv16,
+.frameDiv19,
+.frameDiv22,
+.frameDiv25,
+.frameDiv28 {
+  z-index: 5;
+}
+.frameDiv19,
+.frameDiv22,
+.frameDiv25,
+.frameDiv28 {
+  z-index: 4;
+}
+.frameDiv22,
+.frameDiv25,
+.frameDiv28 {
+  z-index: 3;
+}
+.frameDiv25,
+.frameDiv28 {
+  z-index: 2;
+}
+.frameDiv28 {
+  z-index: 1;
+}
+.addMoreDiv {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.assessmentDiv,
+.frameDiv31 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv31 {
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.assessmentDiv {
+  border-radius: var(--br-xs);
+  border: 1px dashed var(--purple);
+  box-sizing: border-box;
+  width: 607px;
+  padding: var(--padding-sm) var(--padding-lg);
+  justify-content: space-between;
+  z-index: 0;
+  text-align: center;
+  font-size: var(--desktop-body-m-size);
+  color: var(--purple);
+}
+.frameDiv6 {
+  position: absolute;
+  top: 212px;
+  left: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px;
+  color: var(--gray-1);
+}
+.arcticonsnoteIt {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.textDiv6 {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 28px;
+  display: inline-block;
+  width: 488px;
+}
+.yourCourseAs {
+  color: var(--gray-1);
+}
+.previewYourCourseAsAStude {
+  position: relative;
+  font-size: var(--desktop-body-m-size);
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  display: inline-block;
+  width: 304px;
+  color: #665fef;
+}
+.contentDiv,
+.frameDiv32 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+.frameDiv32 {
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.contentDiv {
+  position: absolute;
+  top: 212px;
+  left: 700px;
+  border-radius: var(--br-md);
+  background-color: var(--white);
+  width: 789px;
+  height: 696px;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--desktop-body-l-size);
+  color: var(--gray-1);
+  font-family: var(--desktop-body-l);
+}
+.homeDiv {
+  position: relative;
+  background-color: #f1f4f8;
+  width: 100%;
+  height: 981px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-300);
+  font-family: var(--font-space-grotesk);
+}
+
+a{
+  text-decoration: none;
+}

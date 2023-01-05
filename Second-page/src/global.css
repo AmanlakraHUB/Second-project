@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-space-grotesk: "Space Grotesk";
+
+  /* font sizes */
+  --font-size-xs: 15px;
+  --font-size-sm: 16px;
+  --font-size-base: 18px;
+
+  /* Colors */
+  --color-gray-100: #f1f4f8;
+  --gray-50: #e2e6eb;
+  --gray-5: #e0e0e0;
+  --field-stroke: #cecece;
+  --gray-3: #828282;
+  --gray-1: #333;
+  --color-gray-700: #1e1e1e;
+  --text-text-02: rgba(47, 48, 49, 0.54);
+  --white: #fff;
+  --color-indigo: rgba(102, 95, 239, 0.2);
+  --purple: #793ef5;
+
+  /* Gaps */
+  --gap-2xs: 6px;
+  --gap-xs: 8px;
+  --gap-sm: 12px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+  --gap-xl: 28px;
+
+  /* Paddings */
+  --padding-xs: 10px;
+  --padding-sm: 12px;
+  --padding-md: 16px;
+  --padding-lg: 20px;
+  --padding-xl: 24px;
+
+  /* border radiuses */
+  --br-xs: 12px;
+  --br-sm: 16px;
+  --br-md: 20px;
+  --br-lg: 30px;
+  --br-xl: 32px;
+
+  /* Effects */
+  --card-selected: 0px 24px 34px rgba(0, 0, 0, 0.12);
+}
